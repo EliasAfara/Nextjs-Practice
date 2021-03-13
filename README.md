@@ -18,7 +18,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 ### Build & Export
 
-Run npm build which will build and export the project into a static SPA. If so, you need to replace `yourAPI` inside [server](config/index)
+Run npm build which will build and export the project into a static SPA. If so, you need to replace `yourAPI` inside [server](config/index.js)
 
 Then install Serve globally if you don't have it `npm i -g serve`
 Then run the static single page app on port 8000 `serve -s out -p 8000`
